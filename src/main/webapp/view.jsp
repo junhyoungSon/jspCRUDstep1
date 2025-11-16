@@ -4,12 +4,12 @@
     String id = request.getParameter("id");
 
     // Mock 데이터 (실제로는 DB에서 조회)
-    String title = "아침 런닝 완료!";
+    String title = "11/15 아침 러닝";
     String type = "런닝";
     String duration = "30";
     String calories = "300";
-    String content = "오늘 아침 공원에서 30분 동안 달렸습니다. 날씨가 좋아서 기분이 좋았어요!";
-    String createdDate = "2025-01-15 07:30";
+    String content = "530페이스, 5km, 강도 중";
+    String createdDate = "2025-11-15 07:30";
 %>
 <!DOCTYPE html>
 <html lang="ko">
