@@ -1,8 +1,11 @@
-target/
+target/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+
+!*.war
+!target/*.war
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
